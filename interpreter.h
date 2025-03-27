@@ -3,7 +3,7 @@
 #include "parser.h"
 
 void interpreter_init();
-int interpet(ASTNode *node);
+int interpret(ASTNode *node);
 void interpreter_cleanup();
 
 #endif

@@ -16,5 +16,6 @@ typedef struct {
 
 void lexer_init(char *input);
 Token lexer_next_token();
+void lexer_cleanup();
 
 #endif
